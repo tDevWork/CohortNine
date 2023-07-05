@@ -1,0 +1,47 @@
+
+body {
+    background-color : blueviolet ;
+    margin : 0 auto ;
+    padding : 0 ;
+    width: 100vw ;
+
+    overflow: auto;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+ 
+}
+h2{
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.padding {
+    padding: 6rem;
+
+    border: 8px solid black;
+    width: 60% ;
+}
+
+.margin{
+    margin: 2rem ;
+    background-color: coral;
+    outline: 8px solid black;
+    width: 30% ;
+}
+
+.red{
+    background-color: red;
+    width: 400px;
+    height:400px
+}
+
+#first {
+    background-color: chartreuse;
+}

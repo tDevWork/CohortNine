@@ -1,0 +1,135 @@
+.holder {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  height: 20vh;
+  width: 30vw;
+  margin: 1.5em;
+  font-size: 1em;
+  background-color: aliceblue;
+  border:2px solid black;
+}
+.box1:hover {
+  background-color: blue;
+  transform: rotate(90deg) skew(170deg);
+}
+.box2:hover {
+  background-color: red;
+  transform: scale(1.5);
+}
+.box3:hover {
+  background-color: yellow;
+  transform: skew(45deg);
+}
+.box4 {
+  background-color: green;
+  position: relative;
+  display: block;
+  animation: ease-out move 10s infinite;
+}
+.box5 {
+  background-color: purple;
+  position: relative;
+  display: block;
+  animation: ease-in- slide 10s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(45deg) translate(0, 0);
+  }
+  25% {
+    transform: translate(100px, 0);
+    background-color: coral;
+  }
+  50% {
+    transform: scale(2) translate(100px, 100px);
+    background-color: blueviolet;
+  }
+}
+
+.area {
+  width: 100vw;
+  height: 80vh;
+  background-color: darkkhaki;
+  margin-top: 30em;
+}
+
+.box6,
+.box7,
+.box8 {
+  display: block;
+  position: relative;
+  margin-top: 2em;
+  width: 10px;
+  height: 10px;
+  background-color: purple;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px red;
+}
+
+@keyframes slide {
+  from {
+    left: 0;
+  }
+  25% {
+    transform: translate(0px, 10px);
+    background-color: cadetblue;
+    box-shadow: 1px 2px 2px black;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+.box6 {
+  animation: slide 10s linear infinite;
+}
+
+.box7 {
+  animation: slide 5s ease-in reverse;
+}
+
+.box8 {
+  animation: slide 15s ease-in-out infinite;
+}
+
+.hold{
+  width: 100vw;
+  height:40em;
+
+}
+.light{
+  background-color: aliceblue;
+  color: black;
+}
+.dark{
+  background-color: black;
+  color: aliceblue;
+}
+
+.red{
+  background-color: red;
+  color: black;
+}
+.blue{
+  background-color: blue;
+  color: aliceblue;
+}
+.green{
+  background-color: chartreuse;
+  color: black;
+
+}

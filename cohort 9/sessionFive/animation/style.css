@@ -1,0 +1,21 @@
+.holder{
+    width:50vw;
+    height:50vh;
+    background-color: rgb(215, 138, 45);
+  }
+  
+  .red{
+    background-color: red;
+  }
+  .blue{
+    background-color: blue;
+  }
+  .green{
+    background-color: green;
+  }
+  .pink{
+    background-color: pink;
+  }
+  .purple{
+    background-color: purple;
+  }

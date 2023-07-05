@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </nav>
+    <h1>Use the form below to book your table</h1>
+    <form  class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form-example">
+          <label for="pet-select">Choose a pet:</label>
+  
+          <select name="pets" id="pet-select">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+          </select>
+        </div>
+  
+        <div class="form-example">
+          <fieldset id="drones">
+            <legend>Select a maintenance drone:</legend>
+  
+            <div>
+              <input type="radio" id="huey" name="drone" value="huey" checked />
+              <label for="huey">Huey</label>
+            </div>
+  
+            <div>
+              <input type="radio" id="dewey" name="drone" value="dewey" />
+              <label for="dewey">Dewey</label>
+            </div>
+  
+            <div>
+              <input type="radio" id="louie" name="drone" value="louie" />
+              <label for="louie">Louie</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>
+<div id="output"></div>
+<!-- 
+     Create a form  where your customer can choose a date and 
+     time to book a table
+
+     within the form get the customers choice of what there
+      meal will be
+       your choice , ideas for this are
+       Starter , main, desert, drinks
+       these could be  done by using  
+       select drop downs
+       text input fields
+       radio buttons
+
+       when the user submits there form they are  given
+         a thank you message with the time, date and items
+          they have ordered this could be placed on the page instead of the form or as an alert
+
+          REMEMBER TO CHECK YOU jS FILE IS LINKED PROPERLY
+           BEFORE WRITING ANY OTHER CODE AND THAT YOU HAVE
+           THE WORD defer IN THE SCRIPT TAG
+
+
+-->
+
+  </body>
+</html>

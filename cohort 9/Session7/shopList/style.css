@@ -1,0 +1,17 @@
+body{
+    width:100vw;
+    height:100vh;
+}
+
+.light{
+
+    background-color: burlywood;
+    color: black;
+}
+
+
+.dark{
+
+    background-color: black;
+    color: antiquewhite;
+}
